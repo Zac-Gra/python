@@ -15,4 +15,6 @@ print('choose an Meal option:')
 print(f'{activity_choice[0]}')
 print(f'{activity_choice[1]}')
 print(f'{activity_choice[2]}')
-Activity = input ("Enter the number of your chosen meal: ") 
+Meal = input ("Enter the number of your chosen meal: ") 
+
+print ("{Name}, age {Age}, has chosen {Activity}, meal option: {Meal}. The total cost is   ")
