@@ -1,16 +1,18 @@
 Name = input ("What is your name: ") 
 Age = input ("What is your age: ") 
 
-print ("Choose an activity: ")
-print ("1. Music Jam Session (2 hours, easy, $5 fee)")
-print ("2. Science Experiments lab (3 hours, moderate, $10 fee)")
-print ("3. Sports Leadership Training (4 hours, challenging, $12 fee)")
+activity_choice = ["1. Music Jam Session", "2. Science Experiments Lab", "3. Sports leadership traning"]
+ 
+print('choose an activity:')
+print(f'{activity_choice[0]}')
+print(f'{activity_choice[1]}')
+print(f'{activity_choice[2]}')
 Activity = input ("Enter the number of your chosen activity: ") 
 
-print ("Meal options: ")
-print ("1. Standard ")
-print ("2. Vegetarian")
-print ("3. Dairy Free")
-print ("3. No Feed")
+activity_choice = ["1. Standard", "2. Vegetarian", "3. Dairy Free", "4. No Feed"]
+ 
+print('choose an Meal option:')
+print(f'{activity_choice[0]}')
+print(f'{activity_choice[1]}')
+print(f'{activity_choice[2]}')
 Activity = input ("Enter the number of your chosen meal: ") 
-
