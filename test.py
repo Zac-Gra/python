@@ -17,4 +17,8 @@ print(f'{activity_choice[1]}')
 print(f'{activity_choice[2]}')
 Meal = input ("Enter the number of your chosen meal: ") 
 
-print ("{Name}, age {Age}, has chosen {Activity}, meal option: {Meal}. The total cost is   ")
+print (f"{Name}, age {Age}, has chosen activity option {Activity}, meal option: {Meal}. The total cost is 17$. Are you attending?  ")
+y_or_no = input ("(Yes/No?): ").lower()
+if y_or_no == "yes" : print (f"{Name} is comfirmed for activity option {Activity}, See you there!")
+else:
+    print (f"{Name} isnt going =( ")
