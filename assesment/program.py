@@ -2,8 +2,10 @@ print ("Welcome to the camp sign up page please answer these qustions truthfuly 
 Name = input("What is your name: ")
 Age = int(input("What is your age: "))
 if Age > 17:
-    print("Your not algs to go")
-if Age < 5:
-    print("You're not old enough")
-if Age == [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]:
-    print("your algs to go")
+    print("You're not allowed to go (shame) ")
+elif Age < 5:
+    print("You're not old enough (to bad to sad) ")
+elif Age >= 6 and Age <= 16: 
+    print("You're allowed to go (yay) ")
+else:
+    print("not a number goofy ")

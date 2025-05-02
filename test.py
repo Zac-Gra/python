@@ -1,28 +1,13 @@
-Name = input ("What is your name: ") 
-Age = int ("What is your age: ") 
-if Age <17 : 
-    print ("To young to go")
-else: 
-    print ("Your old enough ")
-activity_choice = ["1. Music Jam Session", "2. Science Experiments Lab", "3. Sports leadership traning"]
- 
-print('choose an activity:')
-print(f'{activity_choice[0]}')
-print(f'{activity_choice[1]}')
-print(f'{activity_choice[2]}')
-Activity = input ("Enter the number of your chosen activity: ") 
+print("Welcome to the camp sign up page please answer these questions truthfully otherwise the bro ryser gonna bash you")
 
+Name = input("What is your name: ")
+Age = int(input("What is your age: "))
 
-activity_choice = ["1. Standard", "2. Vegetarian", "3. Dairy Free", "4. No Feed"]
- 
-print('choose an Meal option:')
-print(f'{activity_choice[0]}')
-print(f'{activity_choice[1]}')
-print(f'{activity_choice[2]}')
-Meal = input ("Enter the number of your chosen meal: ") 
-
-print (f"{Name}, age {Age}, has chosen activity option {Activity}, meal option: {Meal}. The total cost is 17$. Are you attending?  ")
-y_or_no = input ("(Yes/No?): ").lower()
-if y_or_no == "yes" : print (f"{Name} is comfirmed for activity option {Activity}, See you there!")
+if Age > 17:
+    print("You're not allowed to go")
+elif Age < 5:
+    print("You're not old enough")
+elif Age >= 6 and Age <= 16: 
+    print("You're allowed to go")
 else:
-    print (f"{Name} isnt going =( ")
+    print("Invalid age")
